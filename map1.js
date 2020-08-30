@@ -6,7 +6,9 @@ var mneumonics = ['My Very Excellent Mother Just Sent Me Nine Pizzas', 'Please E
 
 // Your code here!
 
+// I read the question wrong the first time. See code below.
+
 var newArrays= mneumonics.map((newItem) => {
-    return [newItem]
+    return [newItem.split(' ')]
   });
   console.log(newArrays);
